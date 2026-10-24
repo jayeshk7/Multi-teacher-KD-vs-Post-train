@@ -1,0 +1,21 @@
+Sat Oct 24 02:04:48 UTC 2026 run 1389403 (abl_sft_code_math) ended
+abl_sft_code_math: all 8 files on the hub, local checkpoints deleted
+Sat Oct 24 02:04:53 UTC 2026 starting SEED=1 seq_math_then_code.py -> seq_math_code_seed1
+Sat Oct 24 03:48:36 UTC 2026 SEED=1 seq_math_then_code.py exited with 0
+seq_math_code_seed1: all 8 files on the hub, local checkpoints deleted
+Sat Oct 24 03:48:42 UTC 2026 starting SEED=1 seq_code_then_math.py -> seq_code_math_seed1
+Sat Oct 24 05:31:41 UTC 2026 SEED=1 seq_code_then_math.py exited with 0
+seq_code_math_seed1: all 8 files on the hub, local checkpoints deleted
+Sat Oct 24 05:31:47 UTC 2026 starting SEED=1 abl_sft_code_math.py -> abl_sft_code_math_seed1
+Sat Oct 24 07:12:13 UTC 2026 SEED=1 abl_sft_code_math.py exited with 0
+abl_sft_code_math_seed1: all 8 files on the hub, local checkpoints deleted
+Sat Oct 24 07:12:18 UTC 2026 starting SEED=2 seq_math_then_code.py -> seq_math_code_seed2
+Sat Oct 24 08:56:40 UTC 2026 SEED=2 seq_math_then_code.py exited with 0
+seq_math_code_seed2: all 8 files on the hub, local checkpoints deleted
+Sat Oct 24 08:56:46 UTC 2026 starting SEED=2 seq_code_then_math.py -> seq_code_math_seed2
+Sat Oct 24 10:57:06 UTC 2026 SEED=2 seq_code_then_math.py exited with 0
+seq_code_math_seed2: all 8 files on the hub, local checkpoints deleted
+Sat Oct 24 10:57:11 UTC 2026 starting SEED=2 abl_sft_code_math.py -> abl_sft_code_math_seed2
+Sat Oct 24 12:37:35 UTC 2026 SEED=2 abl_sft_code_math.py exited with 0
+abl_sft_code_math_seed2: all 8 files on the hub, local checkpoints deleted
+Sat Oct 24 12:37:40 UTC 2026 chain done

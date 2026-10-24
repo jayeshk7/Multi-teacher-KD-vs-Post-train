@@ -1,0 +1,198 @@
+Fetching 23 files:   0%|          | 0/23 [00:00<?, ?it/s]Fetching 23 files: 100%|██████████| 23/23 [00:00<00:00, 324.65it/s]
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  18%|█▊        | 51/290 [00:00<00:00, 505.00it/s]Loading weights:  59%|█████▊    | 170/290 [00:00<00:00, 903.04it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 965.97it/s]
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 4222.15it/s]
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 4059.00it/s]
+math val at step 0: kl 0.1706  ce 0.8387
+code val at step 0: kl 0.2212  ce 0.3674
+math step 10/452  kl 0.1780  ce 0.5806
+[W1024 04:14:50.091894954 CUDACachingAllocator.cpp:3933] memory allocation failed with OOM on device 0 while trying to allocate 1327497216 bytes (free: 147193856, total: 50928943104).
+math step 20/452  kl 0.2434  ce 0.5888
+math step 30/452  kl 0.2735  ce 0.5060
+math step 40/452  kl 0.2750  ce 0.5041
+math step 50/452  kl 0.2785  ce 0.5472
+math step 60/452  kl 0.2774  ce 0.5207
+math step 70/452  kl 0.2620  ce 0.5344
+math step 80/452  kl 0.2870  ce 0.5100
+math step 90/452  kl 0.2784  ce 0.5354
+math step 100/452  kl 0.2980  ce 0.5554
+math step 110/452  kl 0.2678  ce 0.6130
+math step 120/452  kl 0.2819  ce 0.5609
+math step 130/452  kl 0.2822  ce 0.5206
+math step 140/452  kl 0.2679  ce 0.4740
+math step 150/452  kl 0.3001  ce 0.4699
+math step 160/452  kl 0.3267  ce 0.6322
+math step 170/452  kl 0.2712  ce 0.4920
+math step 180/452  kl 0.3110  ce 0.5340
+math step 190/452  kl 0.2915  ce 0.4792
+math step 200/452  kl 0.3239  ce 0.4665
+math step 210/452  kl 0.3313  ce 0.4749
+math step 220/452  kl 0.2877  ce 0.4925
+math val at step 226: kl 0.3369  ce 0.5386
+code val at step 226: kl 0.2650  ce 0.4180
+math step 230/452  kl 0.3458  ce 0.3785
+math step 240/452  kl 0.3054  ce 0.3531
+math step 250/452  kl 0.2907  ce 0.3240
+math step 260/452  kl 0.2960  ce 0.3410
+math step 270/452  kl 0.2873  ce 0.3667
+math step 280/452  kl 0.3151  ce 0.3640
+math step 290/452  kl 0.2945  ce 0.3653
+math step 300/452  kl 0.2807  ce 0.3032
+math step 310/452  kl 0.2992  ce 0.3035
+math step 320/452  kl 0.2952  ce 0.3672
+math step 330/452  kl 0.2904  ce 0.3928
+math step 340/452  kl 0.2714  ce 0.3006
+math step 350/452  kl 0.2822  ce 0.2939
+math step 360/452  kl 0.2780  ce 0.3032
+math step 370/452  kl 0.3839  ce 0.3191
+math step 380/452  kl 0.3020  ce 0.2968
+math step 390/452  kl 0.2754  ce 0.3333
+math step 400/452  kl 0.3038  ce 0.3891
+math step 410/452  kl 0.2819  ce 0.2978
+math step 420/452  kl 0.2860  ce 0.3085
+math step 430/452  kl 0.2905  ce 0.3501
+math step 440/452  kl 0.2992  ce 0.3092
+math step 450/452  kl 0.2833  ce 0.3342
+math val at step 452: kl 0.3169  ce 0.5584
+code val at step 452: kl 0.2605  ce 0.4124
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.19s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.19s/it]
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 3843.88it/s]
+stage1_math: gsm8k
+  128/1319
+  256/1319
+  384/1319
+  512/1319
+  640/1319
+[W1024 04:52:40.687255360 CUDACachingAllocator.cpp:3933] memory allocation failed with OOM on device 0 while trying to allocate 381681664 bytes (free: 228982784, total: 50928943104).
+  768/1319
+  896/1319
+  1024/1319
+  1152/1319
+  1280/1319
+  1319/1319
+gsm8k accuracy 0.362 on 1319 questions
+stage1_math: mbpp+
+  128/378
+  256/378
+  378/378
+Load from ground-truth from /users/pg25/mangesh/.cache/evalplus/ee43ecabebf20deef4bb776a405ac5b1.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:01,  1.35s/it]378it [00:01, 268.63it/s]
+  0%|          | 0/378 [00:00<?, ?it/s]  0%|          | 1/378 [00:00<01:11,  5.30it/s]  5%|▌         | 20/378 [00:00<00:07, 47.76it/s] 13%|█▎        | 48/378 [00:04<00:34,  9.52it/s] 32%|███▏      | 120/378 [00:06<00:12, 19.97it/s] 44%|████▍     | 166/378 [00:06<00:06, 30.82it/s] 56%|█████▌    | 212/378 [00:07<00:03, 43.97it/s] 63%|██████▎   | 238/378 [00:07<00:02, 49.81it/s] 77%|███████▋  | 290/378 [00:07<00:01, 70.46it/s] 88%|████████▊ | 333/378 [00:07<00:00, 93.29it/s] 93%|█████████▎| 353/378 [00:07<00:00, 98.60it/s] 99%|█████████▉| 375/378 [00:08<00:00, 106.85it/s] 99%|█████████▉| 375/378 [00:18<00:00, 106.85it/s]/users/pg25/mangesh/FML/.venv/lib/python3.12/site-packages/evalplus/evaluate.py:239: UserWarning: No samples had finished testing in the last 20s
+  warn("No samples had finished testing in the last 20s")
+/users/pg25/mangesh/FML/.venv/lib/python3.12/site-packages/evalplus/evaluate.py:240: UserWarning: 1 samples to be tested: {'Mbpp/599 (line 269 in abl_sft_math_code_seed1/results_stage1_math/mbpp.jsonl)'}
+  warn(f"{len(remainings)} samples to be tested: {remainings}")
+100%|██████████| 378/378 [01:06<00:00,  1.27it/s] 100%|██████████| 378/378 [01:06<00:00,  5.71it/s]
+mbpp (base tests)
+pass@1:	0.452
+mbpp+ (base + extra tests)
+pass@1:	0.384
+mbpp 0.452, mbpp+ 0.384 on 378 tasks
+stage1_math: humaneval+
+  128/164
+  164/164
+Load from ground-truth from /users/pg25/mangesh/.cache/evalplus/fe585eb4df8c88d844eeb463ea4d0302.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:01,  1.52s/it]164it [00:01, 106.19it/s]
+  0%|          | 0/164 [00:00<?, ?it/s]  1%|          | 1/164 [00:00<00:38,  4.27it/s] 10%|▉         | 16/164 [00:00<00:06, 21.30it/s] 37%|███▋      | 60/164 [00:01<00:01, 73.77it/s] 48%|████▊     | 78/164 [00:01<00:00, 90.69it/s] 55%|█████▌    | 91/164 [00:01<00:01, 61.20it/s] 78%|███████▊  | 128/164 [00:01<00:00, 74.36it/s] 84%|████████▍ | 138/164 [00:02<00:00, 76.50it/s] 98%|█████████▊| 161/164 [00:02<00:00, 76.16it/s]100%|██████████| 164/164 [00:09<00:00, 16.51it/s]
+humaneval (base tests)
+pass@1:	0.299
+humaneval+ (base + extra tests)
+pass@1:	0.280
+humaneval 0.299, humaneval+ 0.280 on 164 tasks
+{'model': 'stage1_math', 'gsm8k': 0.3616376042456406, 'mbpp': 0.4523809523809524, 'mbpp_plus': 0.3835978835978836, 'humaneval': 0.29878048780487804, 'humaneval_plus': 0.2804878048780488, 'n_gsm8k': 1319, 'n_mbpp': 378, 'n_humaneval': 164}
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  42%|████▏     | 123/290 [00:00<00:00, 1176.22it/s]Loading weights:  83%|████████▎ | 241/290 [00:00<00:00, 1113.02it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1132.98it/s]
+math val at step 0: kl 0.3173  ce 0.5588
+code val at step 0: kl 0.2607  ce 0.4125
+code step 10/454  kl 0.2877  ce 0.3336
+code step 20/454  kl 0.3719  ce 0.3288
+code step 30/454  kl 0.3711  ce 0.2942
+code step 40/454  kl 0.3355  ce 0.2625
+code step 50/454  kl 0.3817  ce 0.2925
+code step 60/454  kl 0.4159  ce 0.3465
+code step 70/454  kl 0.3610  ce 0.2958
+code step 80/454  kl 0.3900  ce 0.3157
+code step 90/454  kl 0.3834  ce 0.3213
+code step 100/454  kl 0.3535  ce 0.2633
+code step 110/454  kl 0.3820  ce 0.3024
+code step 120/454  kl 0.3594  ce 0.2035
+code step 130/454  kl 0.3621  ce 0.2405
+code step 140/454  kl 0.4197  ce 0.2546
+[W1024 05:18:05.449606053 CUDACachingAllocator.cpp:3933] memory allocation failed with OOM on device 0 while trying to allocate 1438646272 bytes (free: 15073280, total: 50928943104).
+code step 150/454  kl 0.3846  ce 0.2911
+code step 160/454  kl 0.3388  ce 0.2797
+code step 170/454  kl 0.4064  ce 0.3043
+code step 180/454  kl 0.4334  ce 0.3563
+code step 190/454  kl 0.3744  ce 0.3086
+code step 200/454  kl 0.3929  ce 0.2626
+code step 210/454  kl 0.3592  ce 0.2106
+code step 220/454  kl 0.3780  ce 0.2734
+math val at step 227: kl 0.2697  ce 0.5635
+code val at step 227: kl 0.3880  ce 0.2982
+code step 230/454  kl 0.4079  ce 0.2241
+code step 240/454  kl 0.5017  ce 0.2037
+code step 250/454  kl 0.4125  ce 0.1978
+code step 260/454  kl 0.3668  ce 0.1899
+code step 270/454  kl 0.4525  ce 0.1954
+code step 280/454  kl 0.3983  ce 0.1993
+code step 290/454  kl 0.4304  ce 0.2468
+code step 300/454  kl 0.4670  ce 0.2193
+code step 310/454  kl 0.4092  ce 0.1863
+code step 320/454  kl 0.4303  ce 0.1838
+code step 330/454  kl 0.4196  ce 0.1752
+code step 340/454  kl 0.4386  ce 0.1906
+code step 350/454  kl 0.4936  ce 0.1758
+code step 360/454  kl 0.4366  ce 0.2041
+code step 370/454  kl 0.4022  ce 0.1780
+code step 380/454  kl 0.4434  ce 0.1854
+code step 390/454  kl 0.4028  ce 0.1608
+code step 400/454  kl 0.4463  ce 0.2089
+code step 410/454  kl 0.4217  ce 0.1978
+code step 420/454  kl 0.4317  ce 0.1468
+code step 430/454  kl 0.3809  ce 0.1856
+code step 440/454  kl 0.4152  ce 0.1960
+code step 450/454  kl 0.4575  ce 0.1947
+math val at step 454: kl 0.2791  ce 0.5963
+code val at step 454: kl 0.4226  ce 0.3018
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.09s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.09s/it]
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 4269.72it/s]
+stage2_code: gsm8k
+[W1024 05:48:29.515996869 CUDACachingAllocator.cpp:3933] memory allocation failed with OOM on device 0 while trying to allocate 381681664 bytes (free: 124125184, total: 50928943104).
+  128/1319
+  256/1319
+  384/1319
+  512/1319
+  640/1319
+  768/1319
+  896/1319
+  1024/1319
+  1152/1319
+  1280/1319
+  1319/1319
+gsm8k accuracy 0.356 on 1319 questions
+stage2_code: mbpp+
+  128/378
+  256/378
+  378/378
+Load from ground-truth from /users/pg25/mangesh/.cache/evalplus/ee43ecabebf20deef4bb776a405ac5b1.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:01,  1.32s/it]107it [00:01, 93.86it/s]378it [00:01, 244.19it/s]
+  0%|          | 0/378 [00:00<?, ?it/s]  3%|▎         | 11/378 [00:00<00:07, 50.69it/s] 15%|█▍        | 56/378 [00:00<00:02, 154.69it/s] 19%|█▉        | 73/378 [00:04<00:25, 11.96it/s]  32%|███▏      | 120/378 [00:07<00:17, 14.76it/s] 44%|████▎     | 165/378 [00:07<00:08, 24.76it/s] 53%|█████▎    | 201/378 [00:07<00:04, 35.69it/s] 58%|█████▊    | 221/378 [00:07<00:03, 41.55it/s] 63%|██████▎   | 238/378 [00:08<00:03, 42.07it/s] 77%|███████▋  | 291/378 [00:08<00:01, 67.53it/s] 88%|████████▊ | 332/378 [00:08<00:00, 86.64it/s] 97%|█████████▋| 368/378 [00:08<00:00, 111.47it/s]100%|██████████| 378/378 [00:11<00:00, 33.38it/s] 
+mbpp (base tests)
+pass@1:	0.500
+mbpp+ (base + extra tests)
+pass@1:	0.431
+mbpp 0.500, mbpp+ 0.431 on 378 tasks
+stage2_code: humaneval+
+  128/164
+  164/164
+Load from ground-truth from /users/pg25/mangesh/.cache/evalplus/fe585eb4df8c88d844eeb463ea4d0302.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:01,  1.87s/it]164it [00:01, 86.51it/s]
+  0%|          | 0/164 [00:00<?, ?it/s]  1%|          | 1/164 [00:00<00:35,  4.56it/s] 10%|▉         | 16/164 [00:00<00:07, 20.83it/s] 36%|███▌      | 59/164 [00:00<00:01, 82.04it/s] 46%|████▌     | 75/164 [00:01<00:01, 80.10it/s] 54%|█████▎    | 88/164 [00:01<00:01, 56.47it/s] 78%|███████▊  | 128/164 [00:01<00:00, 76.52it/s] 87%|████████▋ | 143/164 [00:02<00:00, 85.70it/s] 99%|█████████▉| 162/164 [00:02<00:00, 73.91it/s]100%|██████████| 164/164 [00:02<00:00, 59.70it/s]
+humaneval (base tests)
+pass@1:	0.317
+humaneval+ (base + extra tests)
+pass@1:	0.268
+humaneval 0.317, humaneval+ 0.268 on 164 tasks
+{'model': 'stage2_code', 'gsm8k': 0.35633055344958303, 'mbpp': 0.5, 'mbpp_plus': 0.4312169312169312, 'humaneval': 0.3170731707317073, 'humaneval_plus': 0.2682926829268293, 'n_gsm8k': 1319, 'n_mbpp': 378, 'n_humaneval': 164}
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  40%|████      | 117/290 [00:00<00:00, 1169.65it/s]Loading weights:  82%|████████▏ | 239/290 [00:00<00:00, 1178.30it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1209.00it/s]

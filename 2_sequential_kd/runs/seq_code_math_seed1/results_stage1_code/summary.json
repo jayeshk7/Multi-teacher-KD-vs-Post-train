@@ -1,0 +1,1 @@
+{"model": "stage1_code", "gsm8k": 0.4746019711902957, "mbpp": 0.48677248677248675, "mbpp_plus": 0.41534391534391535, "humaneval": 0.3475609756097561, "humaneval_plus": 0.3231707317073171, "n_gsm8k": 1319, "n_mbpp": 378, "n_humaneval": 164}

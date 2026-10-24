@@ -1,0 +1,1 @@
+{"model": "stage2_math", "gsm8k": 0.41243366186504926, "mbpp": 0.47619047619047616, "mbpp_plus": 0.41005291005291006, "humaneval": 0.29878048780487804, "humaneval_plus": 0.2682926829268293, "n_gsm8k": 1319, "n_mbpp": 378, "n_humaneval": 164}

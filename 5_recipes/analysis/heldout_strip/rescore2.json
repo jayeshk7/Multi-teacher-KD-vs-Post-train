@@ -1,0 +1,98 @@
+{
+ "instruct 0": {
+  "stripped": null,
+  "typing_rows": 154,
+  "typing_gain_pp": 3.1635479676635194,
+  "changed": 0
+ },
+ "multi GT-SFT 0": {
+  "stripped": null,
+  "typing_rows": 44,
+  "typing_gain_pp": 0.8482829881721847,
+  "changed": 0
+ },
+ "multi GT-SFT 1": {
+  "stripped": null,
+  "typing_rows": 34,
+  "typing_gain_pp": 0.7530417522502999,
+  "changed": 0
+ },
+ "multi GT-SFT 2": {
+  "stripped": null,
+  "typing_rows": 35,
+  "typing_gain_pp": 0.6788588011381839,
+  "changed": 0
+ },
+ "multi T-SFT 0": {
+  "stripped": null,
+  "typing_rows": 28,
+  "typing_gain_pp": 0.5373866998322875,
+  "changed": 0
+ },
+ "multi T-SFT 1": {
+  "stripped": null,
+  "typing_rows": 39,
+  "typing_gain_pp": 0.7099829774938599,
+  "changed": 0
+ },
+ "multi T-SFT 2": {
+  "stripped": null,
+  "typing_rows": 28,
+  "typing_gain_pp": 0.48374382070464383,
+  "changed": 0
+ },
+ "multi KD 0": {
+  "stripped": 65.90633139010662,
+  "typing_rows": 29,
+  "typing_gain_pp": 0.4854083831131714,
+  "changed": 247
+ },
+ "multi KD 1": {
+  "stripped": 65.83593834385287,
+  "typing_rows": 32,
+  "typing_gain_pp": 0.5411869272177938,
+  "changed": 303
+ },
+ "multi KD 2": {
+  "stripped": 65.81771172590325,
+  "typing_rows": 29,
+  "typing_gain_pp": 0.5031532465248334,
+  "changed": 479
+ },
+ "KD math \u2192 GRPO code 0": {
+  "stripped": 68.63488180464833,
+  "typing_rows": 0,
+  "typing_gain_pp": 0.0,
+  "changed": 5
+ },
+ "KD math \u2192 GRPO code 1": {
+  "stripped": 68.28380628736782,
+  "typing_rows": 0,
+  "typing_gain_pp": 0.0,
+  "changed": 8
+ },
+ "KD math \u2192 GRPO code 2": {
+  "stripped": 68.82024254600432,
+  "typing_rows": 0,
+  "typing_gain_pp": 0.0,
+  "changed": 1
+ },
+ "multi GRPO 0": {
+  "stripped": 68.13888492459921,
+  "typing_rows": 0,
+  "typing_gain_pp": 0.0,
+  "changed": 3
+ },
+ "multi GRPO 1": {
+  "stripped": 70.34759331158223,
+  "typing_rows": 0,
+  "typing_gain_pp": 0.0,
+  "changed": 9
+ },
+ "multi GRPO 2": {
+  "stripped": 69.52047842233833,
+  "typing_rows": 0,
+  "typing_gain_pp": 0.0,
+  "changed": 33
+ }
+}

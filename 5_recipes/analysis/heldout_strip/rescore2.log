@@ -1,0 +1,27 @@
+instruct 0 {'stripped': None, 'typing_rows': 154, 'typing_gain_pp': 3.16, 'changed': 0}
+multi GT-SFT 0 {'stripped': None, 'typing_rows': 44, 'typing_gain_pp': 0.85, 'changed': 0}
+<unknown>:11: SyntaxWarning: invalid escape sequence '\|'
+<unknown>:11: SyntaxWarning: invalid escape sequence '\|'
+<unknown>:11: SyntaxWarning: invalid escape sequence '\|'
+<unknown>:11: SyntaxWarning: invalid escape sequence '\|'
+<unknown>:11: SyntaxWarning: invalid escape sequence '\|'
+<unknown>:11: SyntaxWarning: invalid escape sequence '\|'
+multi GT-SFT 1 {'stripped': None, 'typing_rows': 34, 'typing_gain_pp': 0.75, 'changed': 0}
+multi GT-SFT 2 {'stripped': None, 'typing_rows': 35, 'typing_gain_pp': 0.68, 'changed': 0}
+multi T-SFT 0 {'stripped': None, 'typing_rows': 28, 'typing_gain_pp': 0.54, 'changed': 0}
+multi T-SFT 1 {'stripped': None, 'typing_rows': 39, 'typing_gain_pp': 0.71, 'changed': 0}
+multi T-SFT 2 {'stripped': None, 'typing_rows': 28, 'typing_gain_pp': 0.48, 'changed': 0}
+multi KD 0 {'stripped': 65.91, 'typing_rows': 29, 'typing_gain_pp': 0.49, 'changed': 247}
+multi KD 1 {'stripped': 65.84, 'typing_rows': 32, 'typing_gain_pp': 0.54, 'changed': 303}
+multi KD 2 {'stripped': 65.82, 'typing_rows': 29, 'typing_gain_pp': 0.5, 'changed': 479}
+KD math → GRPO code 0 {'stripped': 68.63, 'typing_rows': 0, 'typing_gain_pp': 0.0, 'changed': 5}
+KD math → GRPO code 1 {'stripped': 68.28, 'typing_rows': 0, 'typing_gain_pp': 0.0, 'changed': 8}
+<unknown>:4: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:4: SyntaxWarning: invalid escape sequence '\s'
+KD math → GRPO code 2 {'stripped': 68.82, 'typing_rows': 0, 'typing_gain_pp': 0.0, 'changed': 1}
+multi GRPO 0 {'stripped': 68.14, 'typing_rows': 0, 'typing_gain_pp': 0.0, 'changed': 3}
+multi GRPO 1 {'stripped': 70.35, 'typing_rows': 0, 'typing_gain_pp': 0.0, 'changed': 9}
+<unknown>:4: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:4: SyntaxWarning: invalid escape sequence '\.'
+multi GRPO 2 {'stripped': 69.52, 'typing_rows': 0, 'typing_gain_pp': 0.0, 'changed': 33}
+done

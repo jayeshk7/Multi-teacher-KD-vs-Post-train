@@ -1,0 +1,355 @@
+{
+ "benchmarks_pp": {
+  "KD math": {
+   "full_ft_seeds": [
+    {
+     "gsm8k": 1.592115238817286,
+     "mbpp_plus": 2.1164021164021163,
+     "humaneval_plus": -4.2682926829268295
+    },
+    {
+     "gsm8k": 2.805155420773313,
+     "mbpp_plus": 0.7936507936507936,
+     "humaneval_plus": -5.487804878048781
+    },
+    {
+     "gsm8k": 2.6535253980288096,
+     "mbpp_plus": 1.0582010582010581,
+     "humaneval_plus": -4.2682926829268295
+    }
+   ],
+   "full_ft_mean": {
+    "gsm8k": 2.350265352539803,
+    "mbpp_plus": 1.3227513227513226,
+    "humaneval_plus": -4.67479674796748
+   },
+   "lora_last_seeds": [
+    {
+     "gsm8k": -1.3646702047005308,
+     "mbpp_plus": -1.3227513227513228,
+     "humaneval_plus": -1.829268292682927
+    },
+    {
+     "gsm8k": 0.3032600454890068,
+     "mbpp_plus": 1.8518518518518519,
+     "humaneval_plus": -2.4390243902439024
+    },
+    {
+     "gsm8k": -1.9711902956785443,
+     "mbpp_plus": 3.7037037037037037,
+     "humaneval_plus": -3.658536585365854
+    }
+   ],
+   "lora_last_mean": {
+    "gsm8k": -1.0108668182966893,
+    "mbpp_plus": 1.4109347442680775,
+    "humaneval_plus": -2.6422764227642275
+   },
+   "lora_best_mean": {
+    "gsm8k": -0.40434672731867577,
+    "mbpp_plus": 0.1763668430335097,
+    "humaneval_plus": -2.845528455284553
+   }
+  },
+  "KD code": {
+   "full_ft_seeds": [
+    {
+     "gsm8k": -3.790750568612585,
+     "mbpp_plus": 1.3227513227513228,
+     "humaneval_plus": -0.6097560975609756
+    },
+    {
+     "gsm8k": -2.805155420773313,
+     "mbpp_plus": 0.5291005291005291,
+     "humaneval_plus": -3.658536585365854
+    },
+    {
+     "gsm8k": -3.10841546626232,
+     "mbpp_plus": 2.1164021164021163,
+     "humaneval_plus": -4.2682926829268295
+    }
+   ],
+   "full_ft_mean": {
+    "gsm8k": -3.234773818549406,
+    "mbpp_plus": 1.3227513227513228,
+    "humaneval_plus": -2.845528455284553
+   },
+   "lora_last_seeds": [
+    {
+     "gsm8k": -1.819560272934041,
+     "mbpp_plus": 2.1164021164021163,
+     "humaneval_plus": -4.2682926829268295
+    },
+    {
+     "gsm8k": -1.288855193328279,
+     "mbpp_plus": 1.3227513227513228,
+     "humaneval_plus": -3.048780487804878
+    },
+    {
+     "gsm8k": -3.10841546626232,
+     "mbpp_plus": 0.5291005291005291,
+     "humaneval_plus": -6.7073170731707314
+    }
+   ],
+   "lora_last_mean": {
+    "gsm8k": -2.072276977508213,
+    "mbpp_plus": 1.3227513227513228,
+    "humaneval_plus": -4.67479674796748
+   },
+   "lora_best_mean": {
+    "gsm8k": -1.4657568865301995,
+    "mbpp_plus": 1.4991181657848325,
+    "humaneval_plus": -3.658536585365854
+   }
+  },
+  "KD math \u2192 KD code": {
+   "full_ft_seeds": [
+    {
+     "gsm8k": -0.37907505686125853,
+     "mbpp_plus": 2.380952380952381,
+     "humaneval_plus": -3.658536585365854
+    },
+    {
+     "gsm8k": -1.061410159211524,
+     "mbpp_plus": 0.0,
+     "humaneval_plus": -4.2682926829268295
+    },
+    {
+     "gsm8k": -1.819560272934041,
+     "mbpp_plus": -0.26455026455026454,
+     "humaneval_plus": -4.2682926829268295
+    }
+   ],
+   "full_ft_mean": {
+    "gsm8k": -1.0866818296689411,
+    "mbpp_plus": 0.7054673721340388,
+    "humaneval_plus": -4.065040650406504
+   },
+   "lora_last_seeds": [
+    {
+     "gsm8k": -2.274450341167551,
+     "mbpp_plus": 2.1164021164021163,
+     "humaneval_plus": -2.4390243902439024
+    },
+    {
+     "gsm8k": 1.3646702047005308,
+     "mbpp_plus": 2.380952380952381,
+     "humaneval_plus": -1.829268292682927
+    },
+    {
+     "gsm8k": -2.350265352539803,
+     "mbpp_plus": 1.8518518518518519,
+     "humaneval_plus": -0.6097560975609756
+    }
+   ],
+   "lora_last_mean": {
+    "gsm8k": -1.0866818296689411,
+    "mbpp_plus": 2.1164021164021163,
+    "humaneval_plus": -1.6260162601626016
+   },
+   "lora_best_mean": {
+    "gsm8k": -1.3141268637856962,
+    "mbpp_plus": 2.1164021164021163,
+    "humaneval_plus": -2.032520325203252
+   }
+  },
+  "KD code \u2192 KD math": {
+   "full_ft_seeds": [
+    {
+     "gsm8k": 1.1372251705837755,
+     "mbpp_plus": 1.5873015873015872,
+     "humaneval_plus": -6.7073170731707314
+    },
+    {
+     "gsm8k": 1.5163002274450341,
+     "mbpp_plus": 0.5291005291005291,
+     "humaneval_plus": -5.487804878048781
+    },
+    {
+     "gsm8k": 1.3646702047005308,
+     "mbpp_plus": 0.5291005291005291,
+     "humaneval_plus": -1.829268292682927
+    }
+   ],
+   "full_ft_mean": {
+    "gsm8k": 1.3393985342431136,
+    "mbpp_plus": 0.8818342151675486,
+    "humaneval_plus": -4.67479674796748
+   },
+   "lora_last_seeds": [
+    {
+     "gsm8k": -0.1516300227445034,
+     "mbpp_plus": 2.380952380952381,
+     "humaneval_plus": -7.317073170731708
+    },
+    {
+     "gsm8k": 0.1516300227445034,
+     "mbpp_plus": 3.7037037037037037,
+     "humaneval_plus": -5.487804878048781
+    },
+    {
+     "gsm8k": 0.9097801364670205,
+     "mbpp_plus": 1.0582010582010581,
+     "humaneval_plus": -4.2682926829268295
+    }
+   ],
+   "lora_last_mean": {
+    "gsm8k": 0.3032600454890068,
+    "mbpp_plus": 2.380952380952381,
+    "humaneval_plus": -5.691056910569106
+   },
+   "lora_best_mean": {
+    "gsm8k": 0.48016173869092754,
+    "mbpp_plus": 2.1164021164021167,
+    "humaneval_plus": -5.284552845528456
+   }
+  },
+  "multi KD": {
+   "full_ft_seeds": null,
+   "full_ft_mean": {
+    "gsm8k": 0.8,
+    "mbpp_plus": 0.4,
+    "humaneval_plus": -4.1
+   },
+   "lora_last_seeds": [
+    {
+     "gsm8k": -0.22744503411675512,
+     "mbpp_plus": 1.3227513227513228,
+     "humaneval_plus": -3.048780487804878
+    },
+    {
+     "gsm8k": 0.3032600454890068,
+     "mbpp_plus": 2.6455026455026456,
+     "humaneval_plus": -3.658536585365854
+    },
+    {
+     "gsm8k": -0.3032600454890068,
+     "mbpp_plus": 0.26455026455026454,
+     "humaneval_plus": -5.487804878048781
+    }
+   ],
+   "lora_last_mean": {
+    "gsm8k": -0.0758150113722517,
+    "mbpp_plus": 1.4109347442680775,
+    "humaneval_plus": -4.065040650406504
+   },
+   "lora_best_mean": {
+    "gsm8k": -0.2021733636593379,
+    "mbpp_plus": 1.3227513227513228,
+    "humaneval_plus": -4.2682926829268295
+   }
+  },
+  "multi T-SFT": {
+   "full_ft_seeds": null,
+   "full_ft_mean": {
+    "gsm8k": 1.5,
+    "mbpp_plus": 0.5,
+    "humaneval_plus": -5.3
+   },
+   "lora_last_seeds": [
+    {
+     "gsm8k": -0.45489006823351025,
+     "mbpp_plus": 0.7936507936507936,
+     "humaneval_plus": -3.048780487804878
+    },
+    {
+     "gsm8k": -1.6679302501895374,
+     "mbpp_plus": 1.0582010582010581,
+     "humaneval_plus": -4.878048780487805
+    },
+    {
+     "gsm8k": -0.9855951478392722,
+     "mbpp_plus": 0.7936507936507936,
+     "humaneval_plus": -4.878048780487805
+    }
+   ],
+   "lora_last_mean": {
+    "gsm8k": -1.0361384887541065,
+    "mbpp_plus": 0.8818342151675486,
+    "humaneval_plus": -4.2682926829268295
+   },
+   "lora_best_mean": {
+    "gsm8k": -0.9350518069244377,
+    "mbpp_plus": 1.146384479717813,
+    "humaneval_plus": -3.048780487804878
+   }
+  },
+  "multi GT-SFT": {
+   "full_ft_seeds": null,
+   "full_ft_mean": {
+    "gsm8k": -13.3,
+    "mbpp_plus": 1.7,
+    "humaneval_plus": -3.7
+   },
+   "lora_last_seeds": [
+    {
+     "gsm8k": -13.040181956027293,
+     "mbpp_plus": 2.380952380952381,
+     "humaneval_plus": -1.2195121951219512
+    },
+    {
+     "gsm8k": -13.570887035633055,
+     "mbpp_plus": 3.1746031746031744,
+     "humaneval_plus": 0.0
+    },
+    {
+     "gsm8k": -13.495072024260804,
+     "mbpp_plus": 2.6455026455026456,
+     "humaneval_plus": -1.2195121951219512
+    }
+   ],
+   "lora_last_mean": {
+    "gsm8k": -13.368713671973717,
+    "mbpp_plus": 2.7336860670194003,
+    "humaneval_plus": -0.8130081300813008
+   },
+   "lora_best_mean": {
+    "gsm8k": -13.318170331058882,
+    "mbpp_plus": 2.7336860670194003,
+    "humaneval_plus": -1.016260162601626
+   }
+  }
+ },
+ "val_kl": {
+  "full ft, math stage from instruct": [
+   0.1177,
+   0.1181,
+   0.118
+  ],
+  "full ft, code stage from instruct": [
+   0.1517,
+   0.1505,
+   0.1529
+  ],
+  "full ft, math KL after the code stage from instruct": [
+   0.1814,
+   0.1814,
+   0.1825
+  ],
+  "full ft, code KL after the math stage from instruct": [
+   0.2456,
+   0.2465,
+   0.2443
+  ],
+  "lora kd_math last": [
+   0.11923357279304117,
+   0.11970912125100346,
+   0.11868369425104815
+  ],
+  "lora kd_code last": [
+   0.16417198020575768,
+   0.1645634517453903,
+   0.16451022347096736
+  ],
+  "lora, math KL after KD code (best)": [
+   0.17195764168031882,
+   0.1741912383963419,
+   0.17190894709215374
+  ],
+  "lora, code KL after KD math (best)": [
+   0.24083311125592977,
+   0.23944028288839492,
+   0.23642416765613952
+  ]
+ }
+}

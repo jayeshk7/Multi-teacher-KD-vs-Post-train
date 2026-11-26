@@ -1,0 +1,216 @@
+Using the latest cached version of the dataset since openai/gsm8k couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'main' at /tmp/jayk_hf/datasets/openai___gsm8k/main/0.0.0/740312add88f781978c0658806c59bc2815b9866 (last modified on Fri Oct 23 07:08:40 2026).
+Using the latest cached version of the dataset since KodCode/KodCode-Light-RL-10K couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /tmp/jayk_hf/datasets/KodCode___kod_code-light-rl-10_k/default/0.0.0/dcf78a8bbba9a613b596ce993c4921a38687dfcc (last modified on Thu Nov  5 07:24:56 2026).
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<00:56,  5.08it/s]Loading weights:  48%|████▊     | 140/290 [00:00<00:00, 581.02it/s]Loading weights:  89%|████████▊ | 257/290 [00:00<00:00, 784.98it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 682.04it/s]
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 4097.81it/s]
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 4142.34it/s]
+{'step': 0, 'epoch': 0.0, 'val_loss_math': 0.17054258713173304, 'val_loss_code': 0.22117593931355184, 'drift_math': 0.0, 'drift_code': 0.0, 'val_math': 0.62, 'val_math_cut': 0.0050000000000000044, 'val_code': 0.48283333333333334, 'val_code_cut': 0.020000000000000018, 'val': 0.5514166666666667}
+/tmp/jayk_grpo/venv/lib/python3.12/site-packages/peft/utils/save_and_load.py:313: UserWarning: Could not find a config file in Qwen/Qwen2.5-0.5B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+step 10/906  code  loss 0.2255
+step 20/906  math  loss 0.1089
+step 30/906  math  loss 0.1147
+step 40/906  math  loss 0.1291
+step 50/906  math  loss 0.1313
+step 60/906  code  loss 0.1894
+step 70/906  code  loss 0.1742
+step 80/906  math  loss 0.1036
+step 90/906  math  loss 0.1175
+step 100/906  math  loss 0.1020
+step 110/906  math  loss 0.1115
+{'step': 113, 'epoch': 0.24944812362030905, 'val_loss_math': 0.13531907461802664, 'val_loss_code': 0.18301253721482563, 'drift_math': 0.01848489141894153, 'drift_code': 0.03913271838004763, 'val_math': 0.55, 'val_math_cut': 0.0050000000000000044, 'val_code': 0.5282321428571428, 'val_code_cut': 0.040000000000000036, 'val': 0.5391160714285714}
+step 120/906  code  loss 0.1911
+step 130/906  code  loss 0.1515
+step 140/906  code  loss 0.2045
+step 150/906  code  loss 0.1765
+step 160/906  code  loss 0.1462
+step 170/906  code  loss 0.1845
+step 180/906  math  loss 0.1171
+step 190/906  math  loss 0.1200
+step 200/906  code  loss 0.1682
+step 210/906  code  loss 0.1630
+step 220/906  code  loss 0.1834
+{'step': 226, 'epoch': 0.4988962472406181, 'val_loss_math': 0.1304589688629944, 'val_loss_code': 0.17533560032532172, 'drift_math': 0.019450724335195315, 'drift_code': 0.045013350607438704, 'val_math': 0.605, 'val_math_cut': 0.025000000000000022, 'val_code': 0.5774206349206349, 'val_code_cut': 0.03500000000000003, 'val': 0.5912103174603174}
+/tmp/jayk_grpo/venv/lib/python3.12/site-packages/peft/utils/save_and_load.py:313: UserWarning: Could not find a config file in Qwen/Qwen2.5-0.5B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+step 230/906  math  loss 0.1063
+step 240/906  code  loss 0.1489
+step 250/906  math  loss 0.0934
+step 260/906  math  loss 0.0958
+step 270/906  code  loss 0.1816
+step 280/906  math  loss 0.0849
+step 290/906  math  loss 0.0891
+step 300/906  math  loss 0.0974
+step 310/906  math  loss 0.0882
+step 320/906  code  loss 0.1410
+step 330/906  math  loss 0.1221
+step 340/906  code  loss 0.1495
+{'step': 340, 'epoch': 0.7505518763796909, 'val_loss_math': 0.12581435960834203, 'val_loss_code': 0.17109705632186445, 'drift_math': 0.023042750424004124, 'drift_code': 0.05410716240734089, 'val_math': 0.59, 'val_math_cut': 0.015000000000000013, 'val_code': 0.5466360028860029, 'val_code_cut': 0.025000000000000022, 'val': 0.5683180014430014}
+step 350/906  math  loss 0.0969
+step 360/906  code  loss 0.1868
+step 370/906  code  loss 0.1543
+step 380/906  code  loss 0.1378
+step 390/906  code  loss 0.1597
+step 400/906  math  loss 0.1047
+step 410/906  code  loss 0.1826
+step 420/906  code  loss 0.1482
+step 430/906  code  loss 0.1287
+step 440/906  math  loss 0.1321
+step 450/906  math  loss 0.1068
+{'step': 453, 'epoch': 1.0, 'val_loss_math': 0.12374800861886509, 'val_loss_code': 0.16756430899146607, 'drift_math': 0.022941730014018946, 'drift_code': 0.055188318215931946, 'val_math': 0.55, 'val_math_cut': 0.0050000000000000044, 'val_code': 0.5813899711399712, 'val_code_cut': 0.04500000000000004, 'val': 0.5656949855699855}
+step 460/906  code  loss 0.1617
+step 470/906  code  loss 0.1467
+step 480/906  math  loss 0.0932
+step 490/906  code  loss 0.1692
+step 500/906  code  loss 0.1223
+step 510/906  math  loss 0.0976
+step 520/906  code  loss 0.1321
+step 530/906  math  loss 0.0994
+step 540/906  math  loss 0.0854
+step 550/906  code  loss 0.1186
+step 560/906  code  loss 0.1452
+{'step': 566, 'epoch': 1.249448123620309, 'val_loss_math': 0.12240430717762352, 'val_loss_code': 0.16578713165901424, 'drift_math': 0.026194010655677166, 'drift_code': 0.06367295502800906, 'val_math': 0.6, 'val_math_cut': 0.0050000000000000044, 'val_code': 0.6187371933621933, 'val_code_cut': 0.040000000000000036, 'val': 0.6093685966810967}
+/tmp/jayk_grpo/venv/lib/python3.12/site-packages/peft/utils/save_and_load.py:313: UserWarning: Could not find a config file in Qwen/Qwen2.5-0.5B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+step 570/906  code  loss 0.1364
+step 580/906  math  loss 0.0788
+step 590/906  math  loss 0.0811
+step 600/906  code  loss 0.0979
+step 610/906  math  loss 0.1005
+step 620/906  math  loss 0.0853
+step 630/906  code  loss 0.1095
+step 640/906  math  loss 0.1110
+step 650/906  math  loss 0.0929
+step 660/906  math  loss 0.1143
+step 670/906  math  loss 0.1057
+step 680/906  code  loss 0.1568
+{'step': 680, 'epoch': 1.5011037527593818, 'val_loss_math': 0.12084884897768147, 'val_loss_code': 0.16433104721065322, 'drift_math': 0.02640956591176594, 'drift_code': 0.06374408262273382, 'val_math': 0.605, 'val_math_cut': 0.010000000000000009, 'val_code': 0.56877886002886, 'val_code_cut': 0.04500000000000004, 'val': 0.5868894300144301}
+step 690/906  code  loss 0.1180
+step 700/906  math  loss 0.0821
+step 710/906  code  loss 0.1189
+step 720/906  math  loss 0.1005
+step 730/906  math  loss 0.0914
+step 740/906  math  loss 0.0954
+step 750/906  code  loss 0.1298
+step 760/906  code  loss 0.1160
+step 770/906  code  loss 0.1510
+step 780/906  code  loss 0.1049
+step 790/906  math  loss 0.0870
+{'step': 793, 'epoch': 1.750551876379691, 'val_loss_math': 0.12106092724163953, 'val_loss_code': 0.1635523057178396, 'drift_math': 0.026199586279607515, 'drift_code': 0.06527617830127454, 'val_math': 0.59, 'val_math_cut': 0.015000000000000013, 'val_code': 0.5511935425685426, 'val_code_cut': 0.03500000000000003, 'val': 0.5705967712842712}
+step 800/906  code  loss 0.1275
+step 810/906  code  loss 0.1194
+step 820/906  math  loss 0.1294
+step 830/906  code  loss 0.1394
+step 840/906  code  loss 0.1436
+step 850/906  math  loss 0.0808
+step 860/906  code  loss 0.1357
+step 870/906  code  loss 0.1118
+step 880/906  math  loss 0.0975
+step 890/906  code  loss 0.1050
+step 900/906  code  loss 0.1556
+{'step': 906, 'epoch': 2.0, 'val_loss_math': 0.12120401490113165, 'val_loss_code': 0.16356251713352057, 'drift_math': 0.026001343333953254, 'drift_code': 0.06514662938568348, 'val_math': 0.575, 'val_math_cut': 0.015000000000000013, 'val_code': 0.543058621933622, 'val_code_cut': 0.025000000000000022, 'val': 0.559029310966811}
+/tmp/jayk_grpo/venv/lib/python3.12/site-packages/peft/utils/save_and_load.py:313: UserWarning: Could not find a config file in Qwen/Qwen2.5-0.5B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  41%|████      | 119/290 [00:00<00:00, 1167.91it/s]Loading weights:  82%|████████▏ | 237/290 [00:00<00:00, 1174.32it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1204.71it/s]
+inst_multi_kd_s0/best: gsm8k
+Using the latest cached version of the dataset since openai/gsm8k couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'main' at /tmp/jayk_hf/datasets/openai___gsm8k/main/0.0.0/740312add88f781978c0658806c59bc2815b9866 (last modified on Fri Oct 23 07:08:40 2026).
+  128/1319
+  256/1319
+  384/1319
+  512/1319
+  640/1319
+  768/1319
+  896/1319
+  1024/1319
+  1152/1319
+  1280/1319
+  1319/1319
+gsm8k accuracy 0.492 on 1319 questions
+inst_multi_kd_s0/best: mbpp+
+  128/378
+  256/378
+  378/378
+Load from ground-truth from /tmp/jayk_exp2/cache/evalplus/ee43ecabebf20deef4bb776a405ac5b1.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  2.22it/s]378it [00:00, 784.42it/s]
+  0%|          | 0/378 [00:00<?, ?it/s]  0%|          | 1/378 [00:00<01:37,  3.86it/s]  2%|▏         | 9/378 [00:00<00:23, 15.74it/s]  3%|▎         | 13/378 [00:00<00:25, 14.58it/s]  5%|▌         | 20/378 [00:01<00:15, 23.66it/s]  7%|▋         | 25/378 [00:01<00:15, 22.69it/s]  8%|▊         | 30/378 [00:01<00:12, 27.27it/s]  9%|▉         | 34/378 [00:01<00:14, 23.31it/s] 11%|█         | 40/378 [00:01<00:11, 29.96it/s] 12%|█▏        | 44/378 [00:01<00:12, 26.00it/s] 13%|█▎        | 49/378 [00:02<00:13, 25.15it/s] 14%|█▍        | 53/378 [00:02<00:12, 25.79it/s] 15%|█▌        | 57/378 [00:02<00:12, 26.45it/s] 16%|█▌        | 61/378 [00:02<00:11, 26.72it/s] 17%|█▋        | 65/378 [00:02<00:11, 27.66it/s] 18%|█▊        | 69/378 [00:02<00:11, 27.92it/s] 19%|█▉        | 73/378 [00:02<00:10, 28.09it/s] 20%|██        | 77/378 [00:03<00:10, 28.23it/s] 21%|██▏       | 81/378 [00:03<00:10, 28.26it/s] 22%|██▏       | 85/378 [00:03<00:10, 28.29it/s] 24%|██▎       | 89/378 [00:03<00:10, 28.51it/s] 25%|██▍       | 93/378 [00:03<00:09, 28.56it/s] 26%|██▌       | 97/378 [00:03<00:09, 28.69it/s] 27%|██▋       | 101/378 [00:03<00:09, 29.10it/s] 28%|██▊       | 105/378 [00:04<00:09, 29.00it/s] 29%|██▊       | 108/378 [00:08<01:37,  2.77it/s] 32%|███▏      | 120/378 [00:09<00:56,  4.55it/s] 34%|███▎      | 127/378 [00:09<00:40,  6.18it/s] 35%|███▌      | 134/378 [00:10<00:30,  8.07it/s] 37%|███▋      | 138/378 [00:10<00:25,  9.60it/s] 37%|███▋      | 141/378 [00:10<00:22, 10.40it/s] 38%|███▊      | 145/378 [00:10<00:18, 12.62it/s] 39%|███▉      | 148/378 [00:10<00:17, 13.34it/s] 40%|████      | 152/378 [00:10<00:13, 16.16it/s] 41%|████      | 155/378 [00:11<00:13, 16.26it/s] 42%|████▏     | 158/378 [00:11<00:12, 17.60it/s] 43%|████▎     | 162/378 [00:11<00:11, 19.09it/s] 44%|████▎     | 165/378 [00:11<00:10, 20.17it/s] 45%|████▍     | 169/378 [00:11<00:09, 20.91it/s] 46%|████▌     | 172/378 [00:11<00:09, 21.34it/s] 47%|████▋     | 176/378 [00:12<00:09, 22.05it/s] 47%|████▋     | 179/378 [00:12<00:09, 20.89it/s] 48%|████▊     | 183/378 [00:12<00:10, 19.00it/s] 50%|█████     | 189/378 [00:12<00:07, 25.51it/s] 51%|█████     | 192/378 [00:12<00:09, 20.66it/s] 52%|█████▏    | 196/378 [00:13<00:09, 18.96it/s] 53%|█████▎    | 202/378 [00:13<00:07, 22.25it/s] 54%|█████▍    | 205/378 [00:13<00:07, 22.28it/s] 55%|█████▌    | 209/378 [00:13<00:08, 20.53it/s] 57%|█████▋    | 215/378 [00:13<00:06, 24.49it/s] 58%|█████▊    | 218/378 [00:13<00:07, 22.45it/s] 59%|█████▊    | 222/378 [00:14<00:06, 23.52it/s] 60%|█████▉    | 225/378 [00:14<00:06, 21.86it/s] 60%|██████    | 228/378 [00:14<00:06, 23.20it/s] 61%|██████    | 231/378 [00:14<00:07, 19.85it/s] 63%|██████▎   | 237/378 [00:14<00:05, 25.00it/s] 63%|██████▎   | 240/378 [00:14<00:06, 22.96it/s] 65%|██████▍   | 244/378 [00:15<00:05, 24.60it/s] 65%|██████▌   | 247/378 [00:15<00:06, 21.06it/s] 67%|██████▋   | 252/378 [00:15<00:06, 20.44it/s] 68%|██████▊   | 257/378 [00:15<00:05, 24.19it/s] 69%|██████▉   | 260/378 [00:15<00:05, 22.26it/s] 70%|███████   | 265/378 [00:15<00:04, 26.63it/s] 71%|███████   | 268/378 [00:16<00:04, 23.34it/s] 72%|███████▏  | 273/378 [00:16<00:03, 27.63it/s] 73%|███████▎  | 277/378 [00:16<00:05, 17.92it/s] 76%|███████▌  | 286/378 [00:16<00:03, 27.63it/s] 77%|███████▋  | 290/378 [00:17<00:03, 23.88it/s] 78%|███████▊  | 295/378 [00:17<00:03, 26.53it/s] 79%|███████▉  | 299/378 [00:17<00:03, 24.85it/s] 80%|████████  | 303/378 [00:17<00:02, 27.00it/s] 81%|████████  | 307/378 [00:17<00:02, 25.79it/s] 82%|████████▏ | 311/378 [00:17<00:02, 27.35it/s] 83%|████████▎ | 314/378 [00:17<00:02, 24.26it/s] 84%|████████▍ | 318/378 [00:18<00:02, 25.91it/s] 85%|████████▍ | 321/378 [00:18<00:02, 23.79it/s] 86%|████████▌ | 325/378 [00:18<00:02, 24.15it/s] 87%|████████▋ | 328/378 [00:18<00:02, 23.80it/s] 88%|████████▊ | 332/378 [00:18<00:01, 26.61it/s] 89%|████████▊ | 335/378 [00:18<00:01, 22.19it/s] 90%|█████████ | 341/378 [00:19<00:01, 27.94it/s] 91%|█████████ | 344/378 [00:19<00:01, 23.41it/s] 92%|█████████▏| 347/378 [00:19<00:01, 24.68it/s] 93%|█████████▎| 350/378 [00:19<00:01, 20.71it/s] 93%|█████████▎| 353/378 [00:19<00:01, 17.12it/s] 94%|█████████▍| 357/378 [00:19<00:01, 19.33it/s] 95%|█████████▌| 360/378 [00:20<00:00, 18.16it/s] 97%|█████████▋| 365/378 [00:20<00:00, 21.36it/s] 97%|█████████▋| 368/378 [00:20<00:00, 19.27it/s] 98%|█████████▊| 372/378 [00:20<00:00, 22.90it/s] 99%|█████████▉| 375/378 [00:20<00:00, 19.53it/s]100%|██████████| 378/378 [00:20<00:00, 18.14it/s]
+mbpp (base tests)
+pass@1:	0.487
+mbpp+ (base + extra tests)
+pass@1:	0.421
+mbpp 0.487, mbpp+ 0.421 on 378 tasks
+inst_multi_kd_s0/best: humaneval+
+  128/164
+  164/164
+Load from ground-truth from /tmp/jayk_exp2/cache/evalplus/fe585eb4df8c88d844eeb463ea4d0302.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  2.02it/s]29it [00:00, 57.81it/s]164it [00:00, 246.08it/s]
+  0%|          | 0/164 [00:00<?, ?it/s]  1%|          | 1/164 [00:00<01:14,  2.19it/s]  4%|▍         | 7/164 [00:00<00:10, 15.10it/s]  6%|▌         | 10/164 [00:00<00:11, 13.22it/s]  9%|▊         | 14/164 [00:01<00:09, 16.38it/s] 10%|█         | 17/164 [00:02<00:21,  6.72it/s] 14%|█▍        | 23/164 [00:02<00:14,  9.57it/s] 18%|█▊        | 29/164 [00:02<00:09, 14.44it/s] 20%|██        | 33/164 [00:02<00:09, 13.84it/s] 23%|██▎       | 37/164 [00:03<00:08, 14.79it/s] 24%|██▍       | 40/164 [00:03<00:07, 16.09it/s] 27%|██▋       | 44/164 [00:03<00:06, 17.16it/s] 29%|██▊       | 47/164 [00:03<00:06, 16.83it/s] 30%|███       | 50/164 [00:03<00:06, 18.22it/s] 32%|███▏      | 53/164 [00:03<00:06, 16.76it/s] 34%|███▍      | 56/164 [00:03<00:05, 18.67it/s] 36%|███▌      | 59/164 [00:04<00:06, 15.96it/s] 37%|███▋      | 61/164 [00:04<00:06, 15.61it/s] 38%|███▊      | 63/164 [00:04<00:07, 13.46it/s] 40%|████      | 66/164 [00:04<00:06, 15.88it/s] 41%|████▏     | 68/164 [00:04<00:05, 16.06it/s] 43%|████▎     | 71/164 [00:04<00:04, 18.63it/s] 45%|████▌     | 74/164 [00:05<00:04, 20.34it/s] 47%|████▋     | 77/164 [00:05<00:04, 20.00it/s] 49%|████▉     | 80/164 [00:05<00:04, 19.01it/s] 51%|█████     | 83/164 [00:05<00:04, 20.19it/s] 53%|█████▎    | 87/164 [00:05<00:03, 23.76it/s] 55%|█████▍    | 90/164 [00:05<00:02, 24.87it/s] 57%|█████▋    | 93/164 [00:05<00:03, 21.32it/s] 59%|█████▊    | 96/164 [00:06<00:03, 22.07it/s] 61%|██████    | 100/164 [00:06<00:02, 23.25it/s] 63%|██████▎   | 103/164 [00:06<00:02, 23.22it/s] 65%|██████▌   | 107/164 [00:06<00:02, 26.82it/s] 67%|██████▋   | 110/164 [00:06<00:02, 24.02it/s] 69%|██████▉   | 113/164 [00:06<00:02, 24.59it/s] 71%|███████   | 116/164 [00:06<00:02, 22.79it/s] 73%|███████▎  | 119/164 [00:07<00:02, 20.19it/s] 74%|███████▍  | 122/164 [00:07<00:03, 13.26it/s] 80%|███████▉  | 131/164 [00:08<00:02, 14.56it/s] 84%|████████▍ | 138/164 [00:08<00:01, 16.30it/s] 89%|████████▉ | 146/164 [00:08<00:01, 17.97it/s] 93%|█████████▎| 153/164 [00:08<00:00, 21.73it/s] 95%|█████████▌| 156/164 [00:09<00:00, 20.95it/s] 98%|█████████▊| 161/164 [00:09<00:00, 22.31it/s]100%|██████████| 164/164 [00:09<00:00, 21.47it/s]100%|██████████| 164/164 [00:09<00:00, 17.29it/s]
+humaneval (base tests)
+pass@1:	0.329
+humaneval+ (base + extra tests)
+pass@1:	0.280
+humaneval 0.329, humaneval+ 0.280 on 164 tasks
+{'model': 'inst_multi_kd_s0/best', 'gsm8k': 0.4920394238059136, 'mbpp': 0.48677248677248675, 'mbpp_plus': 0.42063492063492064, 'humaneval': 0.32926829268292684, 'humaneval_plus': 0.2804878048780488, 'n_gsm8k': 1319, 'n_mbpp': 378, 'n_humaneval': 164}
+inst_multi_kd_s0/best: math-500
+Using the latest cached version of the dataset since HuggingFaceH4/MATH-500 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /tmp/jayk_hf/datasets/HuggingFaceH4___math-500/default/0.0.0/6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be (last modified on Sun Oct 25 18:58:46 2026).
+inst_multi_kd_s0/best: held-out kodcode
+Using the latest cached version of the dataset since KodCode/KodCode-Light-RL-10K couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /tmp/jayk_hf/datasets/KodCode___kod_code-light-rl-10_k/default/0.0.0/dcf78a8bbba9a613b596ce993c4921a38687dfcc (last modified on Thu Nov  5 07:24:56 2026).
+{'model': 'inst_multi_kd_s0/best', 'gsm8k': 0.4920394238059136, 'mbpp': 0.48677248677248675, 'mbpp_plus': 0.42063492063492064, 'humaneval': 0.32926829268292684, 'humaneval_plus': 0.2804878048780488, 'n_gsm8k': 1319, 'n_mbpp': 378, 'n_humaneval': 164, 'math500': 0.31, 'n_math500': 500, 'heldout_code': 0.6454679219123224, 'heldout_code_all_passed': 0.4871388998812822, 'n_heldout_code': 2527, 'test_h': 1.3925114813778134, 'loadavg': 8.43, 'cpus': 96, 'gpu': 'NVIDIA RTX 6000 Ada Generation'}
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  45%|████▌     | 131/290 [00:00<00:00, 1280.83it/s]Loading weights:  90%|████████▉ | 260/290 [00:00<00:00, 1214.19it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1241.14it/s]
+inst_multi_kd_s0/last: gsm8k
+Using the latest cached version of the dataset since openai/gsm8k couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'main' at /tmp/jayk_hf/datasets/openai___gsm8k/main/0.0.0/740312add88f781978c0658806c59bc2815b9866 (last modified on Fri Oct 23 07:08:40 2026).
+  128/1319
+  256/1319
+  384/1319
+  512/1319
+  640/1319
+  768/1319
+  896/1319
+  1024/1319
+  1152/1319
+  1280/1319
+  1319/1319
+gsm8k accuracy 0.503 on 1319 questions
+inst_multi_kd_s0/last: mbpp+
+  128/378
+  256/378
+  378/378
+Load from ground-truth from /tmp/jayk_exp2/cache/evalplus/ee43ecabebf20deef4bb776a405ac5b1.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  1.88it/s]335it [00:00, 530.19it/s]378it [00:00, 476.58it/s]
+  0%|          | 0/378 [00:00<?, ?it/s]  2%|▏         | 7/378 [00:00<00:05, 65.21it/s]  4%|▎         | 14/378 [00:00<00:12, 29.54it/s]  5%|▍         | 18/378 [00:00<00:17, 20.52it/s]  6%|▋         | 24/378 [00:01<00:18, 19.55it/s]  8%|▊         | 31/378 [00:01<00:17, 20.28it/s] 10%|█         | 38/378 [00:01<00:16, 21.02it/s] 12%|█▏        | 45/378 [00:01<00:12, 27.24it/s] 13%|█▎        | 49/378 [00:02<00:13, 23.72it/s] 14%|█▍        | 53/378 [00:02<00:12, 25.76it/s] 15%|█▌        | 57/378 [00:02<00:14, 22.80it/s] 16%|█▋        | 62/378 [00:02<00:13, 22.91it/s] 17%|█▋        | 66/378 [00:02<00:13, 23.87it/s] 19%|█▊        | 70/378 [00:02<00:13, 23.68it/s] 19%|█▉        | 73/378 [00:03<00:12, 24.53it/s] 21%|██        | 78/378 [00:03<00:12, 23.76it/s] 22%|██▏       | 82/378 [00:03<00:11, 24.86it/s] 23%|██▎       | 86/378 [00:03<00:11, 25.48it/s] 24%|██▍       | 90/378 [00:03<00:11, 26.04it/s] 25%|██▍       | 94/378 [00:03<00:11, 24.33it/s] 26%|██▌       | 98/378 [00:04<00:10, 25.71it/s] 27%|██▋       | 102/378 [00:04<00:11, 23.25it/s] 28%|██▊       | 106/378 [00:08<01:28,  3.08it/s] 32%|███▏      | 120/378 [00:10<00:58,  4.40it/s] 34%|███▎      | 127/378 [00:10<00:43,  5.80it/s] 35%|███▌      | 134/378 [00:11<00:33,  7.36it/s] 37%|███▋      | 140/378 [00:11<00:26,  9.05it/s] 39%|███▉      | 147/378 [00:11<00:20, 11.15it/s] 40%|████      | 152/378 [00:11<00:16, 13.52it/s] 41%|████      | 155/378 [00:12<00:17, 12.69it/s] 43%|████▎     | 161/378 [00:12<00:14, 15.25it/s] 43%|████▎     | 164/378 [00:12<00:13, 16.38it/s] 44%|████▍     | 168/378 [00:12<00:12, 17.12it/s] 45%|████▌     | 171/378 [00:12<00:11, 17.75it/s] 46%|████▋     | 175/378 [00:13<00:11, 18.41it/s] 47%|████▋     | 178/378 [00:13<00:10, 19.06it/s] 48%|████▊     | 182/378 [00:13<00:09, 20.30it/s] 49%|████▉     | 185/378 [00:13<00:09, 19.50it/s] 50%|█████     | 189/378 [00:13<00:09, 20.65it/s] 51%|█████     | 192/378 [00:13<00:09, 20.05it/s] 52%|█████▏    | 196/378 [00:13<00:08, 21.43it/s] 53%|█████▎    | 199/378 [00:14<00:08, 20.65it/s] 54%|█████▎    | 203/378 [00:14<00:07, 22.19it/s] 54%|█████▍    | 206/378 [00:14<00:08, 20.80it/s] 56%|█████▌    | 210/378 [00:14<00:07, 21.44it/s] 56%|█████▋    | 213/378 [00:14<00:08, 20.38it/s] 58%|█████▊    | 218/378 [00:15<00:07, 22.78it/s] 58%|█████▊    | 221/378 [00:15<00:07, 21.24it/s] 60%|█████▉    | 225/378 [00:15<00:07, 20.55it/s] 60%|██████    | 228/378 [00:15<00:07, 20.38it/s] 61%|██████▏   | 232/378 [00:15<00:07, 20.75it/s] 62%|██████▏   | 235/378 [00:15<00:06, 21.05it/s] 63%|██████▎   | 239/378 [00:16<00:06, 21.51it/s] 64%|██████▍   | 242/378 [00:16<00:06, 20.93it/s] 65%|██████▌   | 246/378 [00:16<00:05, 22.36it/s] 66%|██████▌   | 249/378 [00:16<00:05, 22.10it/s] 67%|██████▋   | 253/378 [00:16<00:04, 25.69it/s] 68%|██████▊   | 256/378 [00:16<00:05, 20.33it/s] 69%|██████▉   | 261/378 [00:16<00:04, 23.50it/s] 70%|██████▉   | 264/378 [00:17<00:05, 20.91it/s] 71%|███████   | 269/378 [00:17<00:04, 22.88it/s] 72%|███████▏  | 272/378 [00:17<00:04, 21.82it/s] 73%|███████▎  | 276/378 [00:17<00:04, 22.58it/s] 74%|███████▍  | 279/378 [00:18<00:06, 16.32it/s] 75%|███████▍  | 283/378 [00:18<00:05, 17.85it/s] 76%|███████▌  | 288/378 [00:18<00:04, 20.92it/s] 77%|███████▋  | 291/378 [00:18<00:04, 19.92it/s] 78%|███████▊  | 294/378 [00:18<00:03, 21.08it/s] 79%|███████▊  | 297/378 [00:18<00:04, 20.11it/s] 80%|███████▉  | 301/378 [00:18<00:03, 21.36it/s] 80%|████████  | 304/378 [00:19<00:03, 20.77it/s] 81%|████████  | 307/378 [00:19<00:03, 20.77it/s] 82%|████████▏ | 310/378 [00:19<00:03, 19.82it/s] 83%|████████▎ | 313/378 [00:19<00:03, 19.63it/s] 84%|████████▎ | 316/378 [00:19<00:03, 17.62it/s] 85%|████████▍ | 320/378 [00:19<00:02, 20.03it/s] 85%|████████▌ | 323/378 [00:20<00:02, 18.61it/s] 86%|████████▌ | 326/378 [00:20<00:02, 20.31it/s] 87%|████████▋ | 329/378 [00:20<00:02, 22.20it/s] 88%|████████▊ | 332/378 [00:20<00:02, 19.26it/s] 89%|████████▊ | 335/378 [00:20<00:02, 18.96it/s] 89%|████████▉ | 338/378 [00:20<00:02, 17.82it/s] 90%|█████████ | 341/378 [00:21<00:01, 18.59it/s] 91%|█████████ | 344/378 [00:21<00:01, 17.99it/s] 92%|█████████▏| 348/378 [00:21<00:01, 19.71it/s] 93%|█████████▎| 351/378 [00:21<00:01, 16.86it/s] 94%|█████████▎| 354/378 [00:21<00:01, 18.98it/s] 94%|█████████▍| 357/378 [00:22<00:01, 16.64it/s] 95%|█████████▍| 359/378 [00:22<00:01, 16.80it/s] 96%|█████████▌| 361/378 [00:22<00:00, 17.12it/s] 96%|█████████▌| 363/378 [00:22<00:00, 16.78it/s] 97%|█████████▋| 365/378 [00:22<00:00, 15.58it/s] 97%|█████████▋| 367/378 [00:22<00:00, 14.83it/s] 98%|█████████▊| 372/378 [00:22<00:00, 18.35it/s] 99%|█████████▉| 374/378 [00:23<00:00, 16.16it/s] 99%|█████████▉| 374/378 [00:33<00:00, 16.16it/s]/tmp/jayk_grpo/venv/lib/python3.12/site-packages/evalplus/evaluate.py:239: UserWarning: No samples had finished testing in the last 20s
+  warn("No samples had finished testing in the last 20s")
+/tmp/jayk_grpo/venv/lib/python3.12/site-packages/evalplus/evaluate.py:240: UserWarning: 1 samples to be tested: {'Mbpp/599 (line 269 in inst_multi_kd_s0/results_last/mbpp.jsonl)'}
+  warn(f"{len(remainings)} samples to be tested: {remainings}")
+100%|██████████| 378/378 [01:16<00:00,  5.18s/it]100%|██████████| 378/378 [01:16<00:00,  4.96it/s]
+mbpp (base tests)
+pass@1:	0.497
+mbpp+ (base + extra tests)
+pass@1:	0.423
+mbpp 0.497, mbpp+ 0.423 on 378 tasks
+inst_multi_kd_s0/last: humaneval+
+  128/164
+  164/164
+Load from ground-truth from /tmp/jayk_exp2/cache/evalplus/fe585eb4df8c88d844eeb463ea4d0302.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  1.60it/s]164it [00:00, 251.40it/s]
+  0%|          | 0/164 [00:00<?, ?it/s]  1%|          | 1/164 [00:00<00:59,  2.73it/s]  5%|▍         | 8/164 [00:00<00:08, 17.78it/s]  7%|▋         | 11/164 [00:00<00:09, 16.00it/s] 10%|▉         | 16/164 [00:01<00:13, 11.35it/s] 15%|█▍        | 24/164 [00:01<00:09, 14.75it/s] 20%|█▉        | 32/164 [00:02<00:07, 17.29it/s] 24%|██▍       | 39/164 [00:02<00:05, 23.00it/s] 26%|██▌       | 43/164 [00:02<00:05, 20.25it/s] 29%|██▊       | 47/164 [00:02<00:06, 17.08it/s] 32%|███▏      | 53/164 [00:02<00:04, 22.21it/s] 35%|███▍      | 57/164 [00:03<00:05, 19.27it/s] 37%|███▋      | 60/164 [00:03<00:06, 15.65it/s] 39%|███▉      | 64/164 [00:03<00:05, 18.74it/s] 41%|████      | 67/164 [00:03<00:05, 16.83it/s] 43%|████▎     | 70/164 [00:04<00:05, 18.59it/s] 45%|████▍     | 73/164 [00:04<00:05, 16.04it/s] 46%|████▋     | 76/164 [00:04<00:04, 18.06it/s] 48%|████▊     | 79/164 [00:04<00:04, 19.65it/s] 50%|█████     | 82/164 [00:04<00:04, 17.40it/s] 52%|█████▏    | 85/164 [00:04<00:04, 19.37it/s] 54%|█████▎    | 88/164 [00:05<00:04, 17.23it/s] 55%|█████▌    | 91/164 [00:05<00:03, 19.11it/s] 58%|█████▊    | 95/164 [00:05<00:03, 18.70it/s] 60%|██████    | 99/164 [00:05<00:03, 21.19it/s] 62%|██████▏   | 102/164 [00:05<00:02, 22.63it/s] 64%|██████▍   | 105/164 [00:05<00:02, 20.58it/s] 66%|██████▌   | 108/164 [00:06<00:02, 19.86it/s] 68%|██████▊   | 111/164 [00:06<00:02, 21.44it/s] 70%|██████▉   | 114/164 [00:06<00:02, 19.71it/s] 71%|███████▏  | 117/164 [00:06<00:02, 21.85it/s] 73%|███████▎  | 120/164 [00:06<00:02, 19.21it/s] 75%|███████▌  | 123/164 [00:07<00:03, 12.03it/s] 80%|███████▉  | 131/164 [00:07<00:02, 12.14it/s] 84%|████████▍ | 138/164 [00:08<00:01, 14.91it/s] 85%|████████▌ | 140/164 [00:08<00:01, 15.37it/s] 89%|████████▉ | 146/164 [00:08<00:01, 16.78it/s] 93%|█████████▎| 152/164 [00:08<00:00, 22.07it/s] 95%|█████████▍| 155/164 [00:08<00:00, 18.37it/s] 98%|█████████▊| 160/164 [00:09<00:00, 16.42it/s]100%|██████████| 164/164 [00:10<00:00,  8.82it/s]100%|██████████| 164/164 [00:10<00:00, 16.04it/s]
+humaneval (base tests)
+pass@1:	0.335
+humaneval+ (base + extra tests)
+pass@1:	0.305
+humaneval 0.335, humaneval+ 0.305 on 164 tasks
+{'model': 'inst_multi_kd_s0/last', 'gsm8k': 0.5034116755117514, 'mbpp': 0.4973544973544973, 'mbpp_plus': 0.42328042328042326, 'humaneval': 0.3353658536585366, 'humaneval_plus': 0.3048780487804878, 'n_gsm8k': 1319, 'n_mbpp': 378, 'n_humaneval': 164}
+inst_multi_kd_s0/last: math-500
+Using the latest cached version of the dataset since HuggingFaceH4/MATH-500 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /tmp/jayk_hf/datasets/HuggingFaceH4___math-500/default/0.0.0/6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be (last modified on Sun Oct 25 18:58:46 2026).
+inst_multi_kd_s0/last: held-out kodcode
+Using the latest cached version of the dataset since KodCode/KodCode-Light-RL-10K couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /tmp/jayk_hf/datasets/KodCode___kod_code-light-rl-10_k/default/0.0.0/dcf78a8bbba9a613b596ce993c4921a38687dfcc (last modified on Thu Nov  5 07:24:56 2026).
+{'model': 'inst_multi_kd_s0/last', 'gsm8k': 0.5034116755117514, 'mbpp': 0.4973544973544973, 'mbpp_plus': 0.42328042328042326, 'humaneval': 0.3353658536585366, 'humaneval_plus': 0.3048780487804878, 'n_gsm8k': 1319, 'n_mbpp': 378, 'n_humaneval': 164, 'math500': 0.29, 'n_math500': 500, 'heldout_code': 0.5761245833267994, 'heldout_code_all_passed': 0.4305500593589236, 'n_heldout_code': 2527, 'test_h': 1.2655152766572104, 'loadavg': 7.29, 'cpus': 96, 'gpu': 'NVIDIA RTX 6000 Ada Generation'}

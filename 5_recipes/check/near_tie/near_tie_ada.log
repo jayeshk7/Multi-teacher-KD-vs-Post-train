@@ -1,0 +1,17 @@
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  38%|███▊      | 111/290 [00:00<00:00, 1077.36it/s]Loading weights:  76%|███████▌  | 219/290 [00:00<00:00, 1012.98it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1002.90it/s]
+Using the latest cached version of the dataset since openai/gsm8k couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'main' at /tmp/jayk_hf/datasets/openai___gsm8k/main/0.0.0/740312add88f781978c0658806c59bc2815b9866 (last modified on Fri Oct 23 07:08:40 2026).
+  128/1319
+  256/1319
+  384/1319
+  512/1319
+  640/1319
+  768/1319
+  896/1319
+  1024/1319
+  1152/1319
+  1280/1319
+  1319/1319
+NVIDIA RTX 6000 Ada Generation: 1319 questions, 1924 s, scores torch.float32, top-2 values bf16-exact True
+replay = saved answers (eval_instruct/results/gsm8k.jsonl): 1319/1319; top-1 = generated token at 430359/432573 steps
+saved check/near_tie/ada.pt

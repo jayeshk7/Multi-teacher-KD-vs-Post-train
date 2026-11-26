@@ -1,0 +1,28 @@
+# local helper files, not part of the project
+no-git-helpers/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# model weights and checkpoints (kept on the hub / server, never in git)
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+adapter/
+checkpoint-*/
+
+# secrets and local settings
+.env
+.claude/
+
+# editor / os
+.vscode/
+.idea/
+*.swp
+.DS_Store

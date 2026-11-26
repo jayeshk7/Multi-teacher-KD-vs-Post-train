@@ -1,0 +1,12 @@
+replay = saved answers: a6000 1319/1319, ada 1319/1319
+answers: 473 identical, 846 split
+at the split, each gpu's runner-up is the other gpu's token: 813/846
+  a6000: top-1 - top-2 at the split: median 0.1250 logits (1.00 ulp), p90 0.1250; exactly 0 (tie) 363, <= 1 ulp 768
+  ada: top-1 - top-2 at the split: median 0.1250 logits (1.00 ulp), p90 0.1250; exactly 0 (tie) 349, <= 1 ulp 775
+steps where both agree: 220065 per gpu; top-1 - top-2 median 7.875 logits (50.0 ulp), p1 0.1250; <= 1 ulp: 5665 of 440130 (1.29%)
+cross-gpu change of the top-1 logit at agreed steps: median 0.0000 (0.00 ulp), p90 0.2500 (1.00 ulp), p99 0.2500, max 1.5000; exactly equal 112903 of 219374
+  a6000: near-ties (<= 1 ulp) met while the texts were still the same: 3623, of which the split 768 (21.2%); per answer 2.75
+  ada: near-ties (<= 1 ulp) met while the texts were still the same: 3585, of which the split 775 (21.6%); per answer 2.72
+same text, different token ids: [447]
+split position: median token 70 (p10 18, p90 244); as a fraction of the answer: median 0.21
+split answers whose right / wrong differs: 128/846 (only a6000 right 56, only ada right 72)

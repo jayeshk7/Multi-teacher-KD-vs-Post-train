@@ -1,0 +1,7 @@
+instruct 0 {'old': 49.96, 'stripped': 60.81, 'stripped+typing': 57.73, 'changed': 1954}
+multi GT-SFT 0 {'old': 67.71, 'stripped': 67.79, 'stripped+typing': 68.96, 'changed': 17}
+multi GT-SFT 1 {'old': 67.64, 'stripped': 67.71, 'stripped+typing': 68.84, 'changed': 16}
+multi GT-SFT 2 {'old': 68.49, 'stripped': 68.61, 'stripped+typing': 69.61, 'changed': 19}
+multi T-SFT 0 {'old': 60.29, 'stripped': 66.04, 'stripped+typing': 62.26, 'changed': 401}
+multi T-SFT 1 {'old': 60.57, 'stripped': 61.86, 'stripped+typing': 61.58, 'changed': 172}
+multi T-SFT 2 {'old': 58.55, 'stripped': 66.2, 'stripped+typing': 60.85, 'changed': 436}

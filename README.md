@@ -46,7 +46,7 @@ Python 3.12, torch 2.13.0, transformers 5.20.2, trl 1.17.1, peft 0.21.2, dataset
 
 ```
 0_data_gen/gen_data.py     teacher answers for the training prompts
-1_pre_checkpoint/          before the mid-project checkpoint: full fine-tuning, results in runs/
+1_pre_checkpoint/          before the mid-project checkpoint: full fine-tuning (sequential KD results in runs/)
 4_post_train/              first GRPO test run on code
 5_recipes/                 the final experiments: train_sft_kd.py, train_grpo.py, eval_model.py, common.py, reward.py
   analysis/                error analysis, held-out re-scoring, LoRA vs full fine-tuning, charts
@@ -76,8 +76,10 @@ Each run writes `log.json`, the best adapter in `best/` and the test results in 
 - The analysis scripts read the saved answer text (about 400 MB, not in git). Run the benchmarks first, then point
   `DATA` in each script (or the folder it runs from) to the results.
 - The October scripts and `gen_data.py` upload to our Hugging Face repo. Set `HUB_REPO`, `HUB_RESULTS` and
-  `HF_HUB_DATA` to `""` to keep everything local. The October multi-KD "teacher SFT" setting was run from a script
-  variant that is not in this repo.
+  `HF_HUB_DATA` to `""` to keep everything local.
+- The October multi-KD results (the `joint_*` folders in the Hugging Face model repo `jajamken/FML_project`) were
+  produced by a modified copy of `multi_kd.py` that is not in this repo: it adds the teacher-SFT setting and MATH-500,
+  and ran 904 steps instead of 906. `multi_kd.py` runs the same recipe.
 
 ## References and resources
 
@@ -126,14 +128,7 @@ Papers cited in the report:
 - [ ] [Knowledge Fusion of Large Language Models]( https://arxiv.org/abs/2401.10491)
 - [ ] [On-Policy Distillation of Language Models]( https://arxiv.org/abs/2306.13649)
 
-2. RL
-
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-
-3. Post training
+2. Post training
 
 - [ ] [SFT Memorizes, RL Generalizes]( https://arxiv.org/abs/2501.17161)
 - [ ] [RL's Razor]( https://arxiv.org/abs/2509.04259)
